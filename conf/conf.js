@@ -11,7 +11,7 @@ exports.config= {
 capabilities: {
     "browserName": 'firefox'
 },
-
+useAllAngular2AppRoots: true,
 framework:'jasmine',
 
 specs: ['../tests/calculator_specs.js'],
