@@ -1,0 +1,90 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'allure-commandline',
+1 verbose cli   '-g' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData allure-commandline
+8 silly fetchNamedPackageData allure-commandline
+9 silly mapToRegistry name allure-commandline
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/allure-commandline
+13 verbose get https://registry.npmjs.org/allure-commandline not expired, no request
+14 silly install normalizeTree
+15 silly loadCurrentTree Finishing
+16 silly loadIdealTree Starting
+17 silly install loadIdealTree
+18 silly cloneCurrentTree Starting
+19 silly install cloneCurrentTreeToIdealTree
+20 silly cloneCurrentTree Finishing
+21 silly loadShrinkwrap Starting
+22 silly install loadShrinkwrap
+23 silly loadShrinkwrap Finishing
+24 silly loadAllDepsIntoIdealTree Starting
+25 silly install loadAllDepsIntoIdealTree
+26 silly resolveWithNewModule allure-commandline@2.13.0 checking installable status
+27 silly cache add args [ 'allure-commandline', null ]
+28 verbose cache add spec allure-commandline
+29 silly cache add parsed spec Result {
+29 silly cache add   raw: 'allure-commandline',
+29 silly cache add   scope: null,
+29 silly cache add   name: 'allure-commandline',
+29 silly cache add   rawSpec: '',
+29 silly cache add   spec: 'latest',
+29 silly cache add   type: 'tag' }
+30 silly addNamed allure-commandline@latest
+31 verbose addNamed "latest" is being treated as a dist-tag for allure-commandline
+32 info addNameTag [ 'allure-commandline', 'latest' ]
+33 silly mapToRegistry name allure-commandline
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry https://registry.npmjs.org/
+36 silly mapToRegistry uri https://registry.npmjs.org/allure-commandline
+37 verbose addNameTag registry:https://registry.npmjs.org/allure-commandline not in flight; fetching
+38 verbose get https://registry.npmjs.org/allure-commandline not expired, no request
+39 silly addNameTag next cb for allure-commandline with tag latest
+40 silly addNamed allure-commandline@2.13.0
+41 verbose addNamed "2.13.0" is a plain semver version for allure-commandline
+42 silly cache afterAdd allure-commandline@2.13.0
+43 verbose afterAdd /home/vinu/.npm/allure-commandline/2.13.0/package/package.json not in flight; writing
+44 verbose afterAdd /home/vinu/.npm/allure-commandline/2.13.0/package/package.json written
+45 silly loadAllDepsIntoIdealTree Finishing
+46 silly idealTree:prePrune lib
+46 silly idealTree:prePrune └── allure-commandline@2.13.0
+47 silly loadIdealTree Finishing
+48 silly currentTree lib
+48 silly currentTree └── allure-commandline@2.13.0
+49 silly idealTree lib
+49 silly idealTree └── allure-commandline@2.13.0
+50 silly generateActionsToTake Starting
+51 silly install generateActionsToTake
+52 warn checkPermissions Missing write access to /usr/local/lib/node_modules/allure-commandline
+53 warn checkPermissions Missing write access to /usr/local/lib/node_modules
+54 silly rollbackFailedOptional Starting
+55 silly rollbackFailedOptional Finishing
+56 silly runTopLevelLifecycles Starting
+57 silly runTopLevelLifecycles Finishing
+58 silly install printInstalled
+59 verbose stack Error: EACCES: permission denied, access '/usr/local/lib/node_modules/allure-commandline'
+60 verbose cwd /home/vinu/Desktop/Project/Protractor
+61 error Linux 5.3.0-53-generic
+62 error argv "/usr/bin/node" "/usr/bin/npm" "i" "allure-commandline" "-g"
+63 error node v8.10.0
+64 error npm  v3.5.2
+65 error path /usr/local/lib/node_modules/allure-commandline
+66 error code EACCES
+67 error errno -13
+68 error syscall access
+69 error Error: EACCES: permission denied, access '/usr/local/lib/node_modules/allure-commandline'
+69 error  { Error: EACCES: permission denied, access '/usr/local/lib/node_modules/allure-commandline'
+69 error   errno: -13,
+69 error   code: 'EACCES',
+69 error   syscall: 'access',
+69 error   path: '/usr/local/lib/node_modules/allure-commandline' }
+70 error Please try running this command again as root/Administrator.
+71 verbose exit [ -13, true ]

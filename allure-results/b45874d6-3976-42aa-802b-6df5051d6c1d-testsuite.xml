@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1590320807261' stop='1590320811753'>
+    <name>Calculator</name>
+    <title>Calculator</title>
+    <test-cases>
+        <test-case start='1590320807263' status='passed' stop='1590320811642'>
+            <name>Addition</name>
+            <title>Addition</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='842a79bc-2c88-4264-bea4-41dc70947049-attachment.png' type='image/png' size='16684'/>
+            </attachments>
+        </test-case>
+        <test-case start='1590320811642' status='passed' stop='1590320811751'>
+            <name>Subtraction</name>
+            <title>Subtraction</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a56d6d9a-2189-45ac-bfd2-6847d983c556-attachment.png' type='image/png' size='16684'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
