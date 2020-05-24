@@ -6,7 +6,7 @@ var reporter = new HtmlScreenshotReporter({
 });
 
 exports.config= {
-    //directConnect: true,
+    directConnect: true,
 
 capabilities: {
     "browserName": 'firefox'
